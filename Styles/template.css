@@ -99,9 +99,48 @@ main{
 .action-para{
     font-size: 24px;
     font-weight: 400;
-    color: #252432;
+    color:  #3d3d3d;
     margin-bottom: 23px;
 }
 .action-img{
     border-radius: 20px;
+}
+
+/* section-2 */
+.productive{
+    width: 1140px;
+    margin: 0 auto;
+    
+}
+.pro-content{
+padding: 50px 142px;
+text-align: center;
+border-radius: 24px;
+background-color: #c0daf7;
+
+
+
+
+}
+.pro-title{
+    font-size: 35px;
+    color: #252432;
+    margin-bottom: 40px;
+}
+.pro-data{
+    display: flex;
+    gap: 158px;
+    color: #4E47FF;
+    
+    
+}
+.data {
+    font-size: 80px;
+    font-family: "Inter", sans-serif;
+    
+}
+.pro-para{
+    font-size: 20px;
+    font-weight: 400;
+    color:  #3d3d3d;
 }

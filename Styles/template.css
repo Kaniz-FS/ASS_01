@@ -19,6 +19,7 @@ margin: 0;
 font-family: "Raleway", sans-serif;
 }
 
+
 /* FOR ALL BUTTON */
 .btn-all{
     background-color: #4E47FF;
@@ -29,6 +30,13 @@ font-family: "Raleway", sans-serif;
     padding: 12px 36px;
     border-radius: 5px;
 }
+.btn-all:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+    background-color:#65638b;
+}
+
 
 /* Navigation PART */
 .head{
@@ -50,4 +58,50 @@ font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 34px;
     color: #4E47FF;
+}
+
+
+/* Banner section*/
+
+.banner{
+    padding: 158px 267px 152px 267px;
+    text-align: center;
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: 600;
+    margin-bottom: 37px;
+    color: #252432;
+}
+
+/* Action part */
+main{
+   background-color: rgba(241, 250, 253, 0.849);
+}
+
+.action{
+    display: flex;
+    gap: 220px;
+    padding: 116px 150px;
+    align-items: center;
+    
+}
+.action-content{
+    padding: 62px 0px;
+    width: 517px;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 23px;
+    color: #252432;
+}
+.action-para{
+    font-size: 24px;
+    font-weight: 400;
+    color: #252432;
+    margin-bottom: 23px;
+}
+.action-img{
+    border-radius: 20px;
 }

@@ -27,11 +27,9 @@
   font-weight: 600;
   padding: 12px 36px;
   border-radius: 5px;
+  
 }
-.button {
-  display: flex;
-  justify-content: center;
-}
+
 .btn-all:hover {
   cursor: pointer;
   transform: scale(1.05);
@@ -219,7 +217,8 @@ main {
   color: #3d3d3d;
 }
 .btn {
-  margin-bottom: 20px;
+    display: inline-block;
+   margin-bottom: 20px;
 }
 .better-img {
   border-radius: 48px;
